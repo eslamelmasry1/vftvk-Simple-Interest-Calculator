@@ -1,4 +1,57 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
+
+h1 {
+    color: grey;
+    font-family: verdana;
+    font-size: 28px;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 415px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.type  {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
 
 
+button {
+    margin: 0px 60px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.field li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.type {
+    width: auto;
+}
+
+.type li {
+    list-style: none;
+    padding: 6px;
+}
